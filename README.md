@@ -90,3 +90,10 @@ node tools/report.mts                                             # runs/summary
 ## License
 
 MIT © SEN LLC
+
+<!-- sen-publish:links -->
+## Links
+
+- 🌐 Demo: https://sen.ltd/portfolio/welters-game/
+- 📝 記事: https://qiita.com/sen-ltd/items/4bbbb5260d1e6c2d9486
+<!-- /sen-publish:links -->
