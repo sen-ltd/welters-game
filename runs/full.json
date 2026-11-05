@@ -1,0 +1,583 @@
+{
+ "nmax": 72,
+ "seconds": 114,
+ "allMatch": true,
+ "rows": [
+  {
+   "n": 1,
+   "partitions": 1,
+   "full": 1,
+   "oddDegree": 1,
+   "oeis": 1,
+   "ok": true
+  },
+  {
+   "n": 2,
+   "partitions": 2,
+   "full": 2,
+   "oddDegree": 2,
+   "oeis": 2,
+   "ok": true
+  },
+  {
+   "n": 3,
+   "partitions": 3,
+   "full": 2,
+   "oddDegree": 2,
+   "oeis": 2,
+   "ok": true
+  },
+  {
+   "n": 4,
+   "partitions": 5,
+   "full": 4,
+   "oddDegree": 4,
+   "oeis": 4,
+   "ok": true
+  },
+  {
+   "n": 5,
+   "partitions": 7,
+   "full": 4,
+   "oddDegree": 4,
+   "oeis": 4,
+   "ok": true
+  },
+  {
+   "n": 6,
+   "partitions": 11,
+   "full": 8,
+   "oddDegree": 8,
+   "oeis": 8,
+   "ok": true
+  },
+  {
+   "n": 7,
+   "partitions": 15,
+   "full": 8,
+   "oddDegree": 8,
+   "oeis": 8,
+   "ok": true
+  },
+  {
+   "n": 8,
+   "partitions": 22,
+   "full": 8,
+   "oddDegree": 8,
+   "oeis": 8,
+   "ok": true
+  },
+  {
+   "n": 9,
+   "partitions": 30,
+   "full": 8,
+   "oddDegree": 8,
+   "oeis": 8,
+   "ok": true
+  },
+  {
+   "n": 10,
+   "partitions": 42,
+   "full": 16,
+   "oddDegree": 16,
+   "oeis": 16,
+   "ok": true
+  },
+  {
+   "n": 11,
+   "partitions": 56,
+   "full": 16,
+   "oddDegree": 16,
+   "oeis": 16,
+   "ok": true
+  },
+  {
+   "n": 12,
+   "partitions": 77,
+   "full": 32,
+   "oddDegree": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 13,
+   "partitions": 101,
+   "full": 32,
+   "oddDegree": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 14,
+   "partitions": 135,
+   "full": 64,
+   "oddDegree": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 15,
+   "partitions": 176,
+   "full": 64,
+   "oddDegree": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 16,
+   "partitions": 231,
+   "full": 16,
+   "oddDegree": 16,
+   "oeis": 16,
+   "ok": true
+  },
+  {
+   "n": 17,
+   "partitions": 297,
+   "full": 16,
+   "oddDegree": 16,
+   "oeis": 16,
+   "ok": true
+  },
+  {
+   "n": 18,
+   "partitions": 385,
+   "full": 32,
+   "oddDegree": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 19,
+   "partitions": 490,
+   "full": 32,
+   "oddDegree": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 20,
+   "partitions": 627,
+   "full": 64,
+   "oddDegree": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 21,
+   "partitions": 792,
+   "full": 64,
+   "oddDegree": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 22,
+   "partitions": 1002,
+   "full": 128,
+   "oddDegree": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 23,
+   "partitions": 1255,
+   "full": 128,
+   "oddDegree": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 24,
+   "partitions": 1575,
+   "full": 128,
+   "oddDegree": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 25,
+   "partitions": 1958,
+   "full": 128,
+   "oddDegree": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 26,
+   "partitions": 2436,
+   "full": 256,
+   "oddDegree": 256,
+   "oeis": 256,
+   "ok": true
+  },
+  {
+   "n": 27,
+   "partitions": 3010,
+   "full": 256,
+   "oddDegree": 256,
+   "oeis": 256,
+   "ok": true
+  },
+  {
+   "n": 28,
+   "partitions": 3718,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  },
+  {
+   "n": 29,
+   "partitions": 4565,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  },
+  {
+   "n": 30,
+   "partitions": 5604,
+   "full": 1024,
+   "oddDegree": 1024,
+   "oeis": 1024,
+   "ok": true
+  },
+  {
+   "n": 31,
+   "partitions": 6842,
+   "full": 1024,
+   "oddDegree": 1024,
+   "oeis": 1024,
+   "ok": true
+  },
+  {
+   "n": 32,
+   "partitions": 8349,
+   "full": 32,
+   "oddDegree": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 33,
+   "partitions": 10143,
+   "full": 32,
+   "oddDegree": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 34,
+   "partitions": 12310,
+   "full": 64,
+   "oddDegree": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 35,
+   "partitions": 14883,
+   "full": 64,
+   "oddDegree": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 36,
+   "partitions": 17977,
+   "full": 128,
+   "oddDegree": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 37,
+   "partitions": 21637,
+   "full": 128,
+   "oddDegree": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 38,
+   "partitions": 26015,
+   "full": 256,
+   "oddDegree": 256,
+   "oeis": 256,
+   "ok": true
+  },
+  {
+   "n": 39,
+   "partitions": 31185,
+   "full": 256,
+   "oddDegree": 256,
+   "oeis": 256,
+   "ok": true
+  },
+  {
+   "n": 40,
+   "partitions": 37338,
+   "full": 256,
+   "oddDegree": 256,
+   "oeis": 256,
+   "ok": true
+  },
+  {
+   "n": 41,
+   "partitions": 44583,
+   "full": 256,
+   "oddDegree": 256,
+   "oeis": 256,
+   "ok": true
+  },
+  {
+   "n": 42,
+   "partitions": 53174,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  },
+  {
+   "n": 43,
+   "partitions": 63261,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  },
+  {
+   "n": 44,
+   "partitions": 75175,
+   "full": 1024,
+   "oddDegree": 1024,
+   "oeis": 1024,
+   "ok": true
+  },
+  {
+   "n": 45,
+   "partitions": 89134,
+   "full": 1024,
+   "oddDegree": 1024,
+   "oeis": 1024,
+   "ok": true
+  },
+  {
+   "n": 46,
+   "partitions": 105558,
+   "full": 2048,
+   "oddDegree": 2048,
+   "oeis": 2048,
+   "ok": true
+  },
+  {
+   "n": 47,
+   "partitions": 124754,
+   "full": 2048,
+   "oddDegree": 2048,
+   "oeis": 2048,
+   "ok": true
+  },
+  {
+   "n": 48,
+   "partitions": 147273,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  },
+  {
+   "n": 49,
+   "partitions": 173525,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  },
+  {
+   "n": 50,
+   "partitions": 204226,
+   "full": 1024,
+   "oddDegree": 1024,
+   "oeis": 1024,
+   "ok": true
+  },
+  {
+   "n": 51,
+   "partitions": 239943,
+   "full": 1024,
+   "oddDegree": 1024,
+   "oeis": 1024,
+   "ok": true
+  },
+  {
+   "n": 52,
+   "partitions": 281589,
+   "full": 2048,
+   "oddDegree": 2048,
+   "oeis": 2048,
+   "ok": true
+  },
+  {
+   "n": 53,
+   "partitions": 329931,
+   "full": 2048,
+   "oddDegree": 2048,
+   "oeis": 2048,
+   "ok": true
+  },
+  {
+   "n": 54,
+   "partitions": 386155,
+   "full": 4096,
+   "oddDegree": 4096,
+   "oeis": 4096,
+   "ok": true
+  },
+  {
+   "n": 55,
+   "partitions": 451276,
+   "full": 4096,
+   "oddDegree": 4096,
+   "oeis": 4096,
+   "ok": true
+  },
+  {
+   "n": 56,
+   "partitions": 526823,
+   "full": 4096,
+   "oddDegree": 4096,
+   "oeis": 4096,
+   "ok": true
+  },
+  {
+   "n": 57,
+   "partitions": 614154,
+   "full": 4096,
+   "oddDegree": 4096,
+   "oeis": 4096,
+   "ok": true
+  },
+  {
+   "n": 58,
+   "partitions": 715220,
+   "full": 8192,
+   "oddDegree": 8192,
+   "oeis": 8192,
+   "ok": true
+  },
+  {
+   "n": 59,
+   "partitions": 831820,
+   "full": 8192,
+   "oddDegree": 8192,
+   "oeis": 8192,
+   "ok": true
+  },
+  {
+   "n": 60,
+   "partitions": 966467,
+   "full": 16384,
+   "oddDegree": 16384,
+   "oeis": 16384,
+   "ok": true
+  },
+  {
+   "n": 61,
+   "partitions": 1121505,
+   "full": 16384,
+   "oddDegree": 16384,
+   "oeis": 16384,
+   "ok": true
+  },
+  {
+   "n": 62,
+   "partitions": 1300156,
+   "full": 32768,
+   "oddDegree": 32768,
+   "oeis": 32768,
+   "ok": true
+  },
+  {
+   "n": 63,
+   "partitions": 1505499,
+   "full": 32768,
+   "oddDegree": 32768,
+   "oeis": 32768,
+   "ok": true
+  },
+  {
+   "n": 64,
+   "partitions": 1741630,
+   "full": 64,
+   "oddDegree": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 65,
+   "partitions": 2012558,
+   "full": 64,
+   "oddDegree": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 66,
+   "partitions": 2323520,
+   "full": 128,
+   "oddDegree": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 67,
+   "partitions": 2679689,
+   "full": 128,
+   "oddDegree": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 68,
+   "partitions": 3087735,
+   "full": 256,
+   "oddDegree": 256,
+   "oeis": 256,
+   "ok": true
+  },
+  {
+   "n": 69,
+   "partitions": 3554345,
+   "full": 256,
+   "oddDegree": 256,
+   "oeis": 256,
+   "ok": true
+  },
+  {
+   "n": 70,
+   "partitions": 4087968,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  },
+  {
+   "n": 71,
+   "partitions": 4697205,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  },
+  {
+   "n": 72,
+   "partitions": 5392783,
+   "full": 512,
+   "oddDegree": 512,
+   "oeis": 512,
+   "ok": true
+  }
+ ]
+}

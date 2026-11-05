@@ -1,0 +1,6 @@
+{
+ "brute": "<b>Brute force.</b> Every coin set inside 26 squares (67,108,864 positions) solved by plain mex: Welter's formula, Sato's hook formula and the 2-adic hook count all agree on every one (0 mismatches).",
+ "full": "<b>Full positions.</b> For each n ≤ 72 (40,143,941 partitions) the number of λ ⊢ n with value |λ| equals the number with odd dim χ<sup>λ</sup> and equals OEIS A059867 term by term.",
+ "msg": "<b>Irie's Theorem 1.</b> Every partition has a sub-diagram μ with |μ| = value(μ) = value(λ): checked for p = 2 up to size 40, p = 3 up to size 40, p = 5 up to size 30 (0 failures).",
+ "sat": "<b>p-saturations.</b> Letting up to min(p, m+1) − 1 coins move at once (Irie's lower bound for the saturation index) already gives the base-p hook value on every position of the window, for p=3, m=3 (4,495 positions in [0,31)); p=3, m=4 (31,465 positions in [0,31)); p=3, m=5 (98,280 positions in [0,28)); p=3, m=6 (177,100 positions in [0,25)); p=3, m=7 (245,157 positions in [0,23)); p=3, m=8 (319,770 positions in [0,22)); p=4, m=4 (7,315 positions in [0,22)); p=4, m=5 (20,349 positions in [0,21)); p=5, m=5 (26,334 positions in [0,22)); p=5, m=6 (27,132 positions in [0,19)). One coin fewer fails, e.g. {0,2,4} {0,1,3,5}."
+}

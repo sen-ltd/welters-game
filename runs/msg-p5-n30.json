@@ -1,0 +1,8 @@
+{
+ "p": 5,
+ "nmax": 30,
+ "partitions": 28629,
+ "failures": 0,
+ "fails": [],
+ "seconds": 0.2
+}

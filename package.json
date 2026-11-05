@@ -1,0 +1,22 @@
+{
+  "name": "welters-game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Welter's game (Nim with distinct heaps, Sato's Maya game) in the browser: coins on a strip and the matching Young diagram, Sprague-Grundy values by Welter's pairwise formula and by hook lengths, winning moves, and a check of every position against brute-force mex. TypeScript, no runtime deps.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 4173",
+    "test": "vitest run",
+    "compute": "node --max-old-space-size=8192 tools/compute.mts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.5"
+  },
+  "license": "MIT"
+}

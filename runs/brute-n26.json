@@ -1,0 +1,327 @@
+{
+ "n": 26,
+ "positions": 67108864,
+ "dpSeconds": 94.6,
+ "seconds": 212.7,
+ "maxSg": 31,
+ "welterFormulaMismatches": 0,
+ "hookFormulaMismatches": 0,
+ "partitionFormulaWindow": 18,
+ "partitionFormulaMismatches": 0,
+ "firstBad": [],
+ "pPositionsByCoins": [
+  {
+   "coins": 0,
+   "positions": 1,
+   "p": 1
+  },
+  {
+   "coins": 1,
+   "positions": 26,
+   "p": 1
+  },
+  {
+   "coins": 2,
+   "positions": 325,
+   "p": 13
+  },
+  {
+   "coins": 3,
+   "positions": 2600,
+   "p": 90
+  },
+  {
+   "coins": 4,
+   "positions": 14950,
+   "p": 518
+  },
+  {
+   "coins": 5,
+   "positions": 65780,
+   "p": 2098
+  },
+  {
+   "coins": 6,
+   "positions": 230230,
+   "p": 7318
+  },
+  {
+   "coins": 7,
+   "positions": 657800,
+   "p": 20690
+  },
+  {
+   "coins": 8,
+   "positions": 1562275,
+   "p": 49195
+  },
+  {
+   "coins": 9,
+   "positions": 3124550,
+   "p": 98095
+  },
+  {
+   "coins": 10,
+   "positions": 5311735,
+   "p": 166631
+  },
+  {
+   "coins": 11,
+   "positions": 7726160,
+   "p": 241876
+  },
+  {
+   "coins": 12,
+   "positions": 9657700,
+   "p": 302660
+  },
+  {
+   "coins": 13,
+   "positions": 10400600,
+   "p": 325948
+  },
+  {
+   "coins": 14,
+   "positions": 9657700,
+   "p": 302660
+  },
+  {
+   "coins": 15,
+   "positions": 7726160,
+   "p": 241876
+  },
+  {
+   "coins": 16,
+   "positions": 5311735,
+   "p": 166631
+  },
+  {
+   "coins": 17,
+   "positions": 3124550,
+   "p": 98095
+  },
+  {
+   "coins": 18,
+   "positions": 1562275,
+   "p": 49195
+  },
+  {
+   "coins": 19,
+   "positions": 657800,
+   "p": 20690
+  },
+  {
+   "coins": 20,
+   "positions": 230230,
+   "p": 7318
+  },
+  {
+   "coins": 21,
+   "positions": 65780,
+   "p": 2098
+  },
+  {
+   "coins": 22,
+   "positions": 14950,
+   "p": 518
+  },
+  {
+   "coins": 23,
+   "positions": 2600,
+   "p": 90
+  },
+  {
+   "coins": 24,
+   "positions": 325,
+   "p": 13
+  },
+  {
+   "coins": 25,
+   "positions": 26,
+   "p": 1
+  },
+  {
+   "coins": 26,
+   "positions": 1,
+   "p": 1
+  }
+ ],
+ "fullVsOeis": [
+  {
+   "n": 1,
+   "partitions": 1,
+   "full": 1,
+   "oeis": 1,
+   "ok": true
+  },
+  {
+   "n": 2,
+   "partitions": 2,
+   "full": 2,
+   "oeis": 2,
+   "ok": true
+  },
+  {
+   "n": 3,
+   "partitions": 3,
+   "full": 2,
+   "oeis": 2,
+   "ok": true
+  },
+  {
+   "n": 4,
+   "partitions": 5,
+   "full": 4,
+   "oeis": 4,
+   "ok": true
+  },
+  {
+   "n": 5,
+   "partitions": 7,
+   "full": 4,
+   "oeis": 4,
+   "ok": true
+  },
+  {
+   "n": 6,
+   "partitions": 11,
+   "full": 8,
+   "oeis": 8,
+   "ok": true
+  },
+  {
+   "n": 7,
+   "partitions": 15,
+   "full": 8,
+   "oeis": 8,
+   "ok": true
+  },
+  {
+   "n": 8,
+   "partitions": 22,
+   "full": 8,
+   "oeis": 8,
+   "ok": true
+  },
+  {
+   "n": 9,
+   "partitions": 30,
+   "full": 8,
+   "oeis": 8,
+   "ok": true
+  },
+  {
+   "n": 10,
+   "partitions": 42,
+   "full": 16,
+   "oeis": 16,
+   "ok": true
+  },
+  {
+   "n": 11,
+   "partitions": 56,
+   "full": 16,
+   "oeis": 16,
+   "ok": true
+  },
+  {
+   "n": 12,
+   "partitions": 77,
+   "full": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 13,
+   "partitions": 101,
+   "full": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 14,
+   "partitions": 135,
+   "full": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 15,
+   "partitions": 176,
+   "full": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 16,
+   "partitions": 231,
+   "full": 16,
+   "oeis": 16,
+   "ok": true
+  },
+  {
+   "n": 17,
+   "partitions": 297,
+   "full": 16,
+   "oeis": 16,
+   "ok": true
+  },
+  {
+   "n": 18,
+   "partitions": 385,
+   "full": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 19,
+   "partitions": 490,
+   "full": 32,
+   "oeis": 32,
+   "ok": true
+  },
+  {
+   "n": 20,
+   "partitions": 627,
+   "full": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 21,
+   "partitions": 792,
+   "full": 64,
+   "oeis": 64,
+   "ok": true
+  },
+  {
+   "n": 22,
+   "partitions": 1002,
+   "full": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 23,
+   "partitions": 1255,
+   "full": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 24,
+   "partitions": 1575,
+   "full": 128,
+   "oeis": 128,
+   "ok": true
+  },
+  {
+   "n": 25,
+   "partitions": 1958,
+   "full": 128,
+   "oeis": 128,
+   "ok": true
+  }
+ ],
+ "fullAllMatch": true
+}

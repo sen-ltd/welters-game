@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welter's Game — Nim with distinct heaps, solved by hook lengths</title>
+    <meta
+      name="description"
+      content="Welter's game in the browser: slide coins left on a strip, never two on one square. Each position is shown as coins and as Sato's Young diagram, its Sprague-Grundy value is computed three ways (Welter's pairwise formula, Sato's hook-length formula, Irie's 2-adic hook count) and every legal move is marked winning or losing. Checked against brute-force mex on all 16,777,216 coin sets inside 24 squares."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23141518'/%3E%3Ccircle cx='9' cy='16' r='5' fill='%237cc4e8'/%3E%3Ccircle cx='23' cy='16' r='5' fill='%237cc4e8'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Welter's Game <span>Nim where no two heaps may be equal</span></h1>
+        <p class="sub">
+          Coins sit on a strip of squares numbered 0, 1, 2, … . On your turn slide <em>one</em> coin left to any
+          <em>empty</em> square (jumping is fine). <strong>Whoever cannot move loses.</strong> Read the strip as a
+          Maya diagram and the coins become a Young diagram: a coin moving from <em>a</em> to <em>b</em> removes a hook
+          of length <em>a − b</em>. The value of the game is the nim-sum of <em>2<sup>ord₂ h + 1</sup> − 1</em> over all
+          hook lengths <em>h</em> (Sato), and the page uses it to mark every legal move
+          <strong class="win-t">✓</strong> winning or <strong class="lose-t">✗</strong> losing.
+        </p>
+      </header>
+
+      <div id="wrap">
+        <div class="stage">
+          <div class="controls">
+            <label class="sel">mode
+              <select id="modeSel">
+                <option value="first">vs computer — you move first</option>
+                <option value="second">vs computer — computer moves first</option>
+                <option value="study">study (you play both sides)</option>
+              </select>
+            </label>
+            <label class="sel">start
+              <select id="presetSel">
+                <option value="random">random</option>
+                <option value="1,4,5,9,11">1 4 5 9 11</option>
+                <option value="3,7">3 7 (Irie's example)</option>
+                <option value="2,5,8,11,14,17">2 5 8 11 14 17</option>
+                <option value="6,7,8,9,10">6 7 8 9 10 (a 5×6 rectangle)</option>
+                <option value="0,1,2,3,13">a single heap of 9, padded</option>
+              </select>
+            </label>
+            <label class="sel">squares
+              <select id="widthSel">
+                <option>12</option><option>16</option><option selected>20</option><option>24</option>
+              </select>
+            </label>
+            <label class="sel chk"><input type="checkbox" id="hints" checked /> show ✓ / ✗</label>
+            <button id="newBtn" class="primary">new game</button>
+            <button id="undoBtn">undo</button>
+          </div>
+
+          <div id="boardwrap">
+            <div id="strip"></div>
+            <div id="status"></div>
+          </div>
+
+          <div class="diagram-wrap">
+            <h3>Young diagram λ — each cell shows its hook length</h3>
+            <div id="diagram"></div>
+            <p class="dim" id="hookNote"></p>
+          </div>
+        </div>
+
+        <aside class="side">
+          <div class="panel">
+            <h3>value of this position</h3>
+            <div id="value"></div>
+          </div>
+          <div class="panel">
+            <h3>three ways to the same number</h3>
+            <div id="ways"></div>
+          </div>
+          <div class="panel">
+            <h3>moves played</h3>
+            <div id="history"></div>
+          </div>
+          <div class="panel">
+            <h3>checked, not trusted</h3>
+            <div id="findings"></div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="notes">
+        <h3>notes</h3>
+        <p>
+          <strong>Why it is Nim with a twist.</strong> One coin on square <em>a</em> is a Nim heap of size <em>a</em>.
+          Several coins are Nim heaps that may never become equal, and that single rule breaks the plain nim-sum:
+          Welter (1954) found the value is <em>x¹ ⊕ … ⊕ xᵐ ⊕ ⊕<sub>i&lt;j</sub> N(xⁱ − xʲ)</em> with
+          <em>N(d) = d ⊕ (d − 1)</em>. Sato rediscovered it as the Maya game and rewrote it over hook lengths, the same
+          numbers that give the dimension of an irreducible representation of the symmetric group.
+        </p>
+        <p>
+          <strong>Full positions.</strong> A position is full when its value equals the number of cells |λ|. By Irie
+          (2018, using Macdonald) that happens exactly when the representation χ<sup>λ</sup> has odd dimension, so the
+          number of full positions of size <em>n</em> is OEIS A059867 — this page recounts it both ways.
+        </p>
+        <p>
+          <strong>p-saturations.</strong> Irie lets up to <em>k − 1</em> coins move at once under a p-adic rule and
+          proves the value becomes the base-p hook count. The least <em>k</em> that suffices is unknown for
+          3 ≤ p ≤ m; the repository's <code>tools/compute.mts sat</code> computes it exactly on finite windows.
+        </p>
+        <p class="dim">
+          Source: <a href="https://github.com/sen-ltd/welters-game">github.com/sen-ltd/welters-game</a> · MIT · by SEN LLC
+        </p>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
